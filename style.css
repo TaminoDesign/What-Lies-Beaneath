@@ -9,9 +9,9 @@ body {
     overflow-x: hidden;
 }
 
-/* .no-scroll {
+.no-scroll {
   overflow: hidden;
-} */
+}
 
 @font-face {
     font-family: 'RoslinadaDisplay';
@@ -45,6 +45,15 @@ h2 {
     line-height: 1;
 }
 
+h3 {
+    font-family: 'RoslinadaDisplay';
+    color: #FFFCEA;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1;
+}
+
 p {
     font-family: 'RoslinadaText';
     color: #FFFCEA;
@@ -64,14 +73,21 @@ button {
     background-color: #1C3C65;
     border: solid 0px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-button p {
+a button {
     text-decoration: none;
 }
 
 button img {
     padding-left: 10px;
+}
+
+button:hover {
+    background-color: #2D2037;
+    transition: transform 0.3s ease;
+
 }
 
 .loading {
@@ -191,6 +207,59 @@ section {
     flex-direction: column;
     width: 100%;
     height: fit-content;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    max-width: 1280px;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.footerLogo img {
+    width: 100%;
+}
+
+.footerNews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 20px;
+        margin: 40px 40px 0px 40px;
+            width: 33%;
+}
+
+.footerNews h3 {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.footerSponsored {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 20px;
+        margin: 40px 40px 0px 40px;
+            width: 33%;
+}
+
+.footerSponsored h3 {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.footerSponsored p {
+    text-align: right;
 }
 
 .introContent {
