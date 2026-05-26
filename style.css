@@ -5,24 +5,24 @@
 
 body {
     background-color: #2D2037;
-    background-image: url(data:image/png;base64,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);
+    background-image: url("data:image/png;base64,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");
     overflow-x: hidden;
 }
 
 .no-scroll {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 @font-face {
     font-family: 'RoslinadaDisplay';
-    src: url('Assets/RoslindaleDisplay-Regular-Edu.otf');
+    src: url("Assets/RoslindaleDisplay-Regular-Edu.otf");
     font-size: 85px;
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'RoslinadaText';
-    src: url('Assets/RoslindaleText-Regular-Edu.woff');
+    src: url("Assets/RoslindaleText-Regular-Edu.woff");
     font-size: 12px;
     font-weight: 400;
 }
@@ -71,7 +71,7 @@ button {
     align-items: center;
     padding: 10px;
     background-color: #1C3C65;
-    border: solid 0px;
+    border: solid 0;
     cursor: pointer;
     text-decoration: none;
     color: #FFFCEA;
@@ -104,22 +104,23 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('Assets/Images/loadingScreenBAckground.png');
+    background: url("Assets/Images/loadingScreenBAckground.png");
     background-position: center;
-    background-size: cover;
-
-     /* on your loading screen element */ transition: opacity 0.6s ease; 
+    background-size: cover; /* on your loading screen element */
+    transition: opacity 0.6s ease;
 }
-
-/* the .hidden class JS will add */ .hidden { opacity: 0; } 
+/* the .hidden class JS will add */
+.hidden {
+    opacity: 0;
+}
 
 .loadingButtons {
     display: flex;
-flex-direction: row;
-margin: 10px;
+    flex-direction: row;
+    margin: 10px;
 }
 .loadingButtons button {
-margin: 10px;
+    margin: 10px;
 }
 
 #audio-prompt {
@@ -128,16 +129,17 @@ margin: 10px;
     background-color: #FFFCEA;
     padding: 40px;
     top: 45%;
-      left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  width: 300px; /* Need a specific value to work */
-  border-radius: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    /* Need a specific value to work */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #audio-prompt p {
@@ -151,7 +153,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('Assets/Images/loadingScreenBAckground.png');
+    background: url("Assets/Images/loadingScreenBAckground.png");
     background-position: center;
     background-size: cover;
 }
@@ -163,7 +165,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('Assets/Images/backgroundBlue.png');
+    background: url("Assets/Images/backgroundBlue.png");
     background-position: center;
     background-size: cover;
 }
@@ -175,7 +177,19 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('Assets/Images/backgroundYellow.png');
+    background: url("Assets/Images/backgroundYellow.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.headingExhibition {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("Assets/Images/backgroundPink.png");
     background-position: center;
     background-size: cover;
 }
@@ -218,20 +232,26 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('Assets/Images/heroTextBackground.png');
+    background: url("Assets/Images/heroTextBackground.png");
     background-position: bottom;
     background-size: 80%;
     background-repeat: no-repeat;
 }
 
-.headingFirstRow, .headingSecondRow, .headingThirdRow, .headingThrthRow {
+.headingFirstRow,
+.headingSecondRow,
+.headingThirdRow,
+.headingThrthRow {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.headingFirstRow img, .headingSecondRow img, .headingThirdRow img, .headingThrthRow img {
+.headingFirstRow img,
+.headingSecondRow img,
+.headingThirdRow img,
+.headingThrthRow img {
     width: 120px;
     height: auto;
 }
@@ -279,8 +299,8 @@ footer {
     justify-content: space-between;
     align-items: start;
     padding-bottom: 20px;
-        margin: 40px 40px 0px 40px;
-            width: 33%;
+    margin: 40px 40px 0;
+    width: 33%;
 }
 
 .footerNews h3 {
@@ -294,8 +314,8 @@ footer {
     justify-content: space-between;
     align-items: end;
     padding-bottom: 20px;
-        margin: 40px 40px 0px 40px;
-            width: 33%;
+    margin: 40px 40px 0;
+    width: 33%;
 }
 
 .footerSponsored h3 {
@@ -315,7 +335,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(data:image/png;base64,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);
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAUVBMVEWFhYWDg4N3d3dtbW17e3t1dXWBgYGHh4d5eXlzc3OLi4ubm5uVlZWPj4+NjY19fX2JiYl/f39ra2uRkZGZmZlpaWmXl5dvb29xcXGTk5NnZ2c8TV1mAAAAG3RSTlNAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAvEOwtAAAFVklEQVR4XpWWB67c2BUFb3g557T/hRo9/WUMZHlgr4Bg8Z4qQgQJlHI4A8SzFVrapvmTF9O7dmYRFZ60YiBhJRCgh1FYhiLAmdvX0CzTOpNE77ME0Zty/nWWzchDtiqrmQDeuv3powQ5ta2eN0FY0InkqDD73lT9c9lEzwUNqgFHs9VQce3TVClFCQrSTfOiYkVJQBmpbq2L6iZavPnAPcoU0dSw0SUTqz/GtrGuXfbyyBniKykOWQWGqwwMA7QiYAxi+IlPdqo+hYHnUt5ZPfnsHJyNiDtnpJyayNBkF6cWoYGAMY92U2hXHF/C1M8uP/ZtYdiuj26UdAdQQSXQErwSOMzt/XWRWAz5GuSBIkwG1H3FabJ2OsUOUhGC6tK4EMtJO0ttC6IBD3kM0ve0tJwMdSfjZo+EEISaeTr9P3wYrGjXqyC1krcKdhMpxEnt5JetoulscpyzhXN5FRpuPHvbeQaKxFAEB6EN+cYN6xD7RYGpXpNndMmZgM5Dcs3YSNFDHUo2LGfZuukSWyUYirJAdYbF3MfqEKmjM+I2EfhA94iG3L7uKrR+GdWD73ydlIB+6hgref1QTlmgmbM3/LeX5GI1Ux1RWpgxpLuZ2+I+IjzZ8wqE4nilvQdkUdfhzI5QDWy+kw5Wgg2pGpeEVeCCA7b85BO3F9DzxB3cdqvBzWcmzbyMiqhzuYqtHRVG2y4x+KOlnyqla8AoWWpuBoYRxzXrfKuILl6SfiWCbjxoZJUaCBj1CjH7GIaDbc9kqBY3W/Rgjda1iqQcOJu2WW+76pZC9QG7M00dffe9hNnseupFL53r8F7YHSwJWUKP2q+k7RdsxyOB11n0xtOvnW4irMMFNV4H0uqwS5ExsmP9AxbDTc9JwgneAT5vTiUSm1E7BSflSt3bfa1tv8Di3R8n3Af7MNWzs49hmauE2wP+ttrq+AsWpFG2awvsuOqbipWHgtuvuaAE+A1Z/7gC9hesnr+7wqCwG8c5yAg3AL1fm8T9AZtp/bbJGwl1pNrE7RuOX7PeMRUERVaPpEs+yqeoSmuOlokqw49pgomjLeh7icHNlG19yjs6XXOMedYm5xH2YxpV2tc0Ro2jJfxC50ApuxGob7lMsxfTbeUv07TyYxpeLucEH1gNd4IKH2LAg5TdVhlCafZvpskfncCfx8pOhJzd76bJWeYFnFciwcYfubRc12Ip/ppIhA1/mSZ/RxjFDrJC5xifFjJpY2Xl5zXdguFqYyTR1zSp1Y9p+tktDYYSNflcxI0iyO4TPBdlRcpeqjK/piF5bklq77VSEaA+z8qmJTFzIWiitbnzR794USKBUaT0NTEsVjZqLaFVqJoPN9ODG70IPbfBHKK+/q/AWR0tJzYHRULOa4MP+W/HfGadZUbfw177G7j/OGbIs8TahLyynl4X4RinF793Oz+BU0saXtUHrVBFT/DnA3ctNPoGbs4hRIjTok8i+algT1lTHi4SxFvONKNrgQFAq2/gFnWMXgwffgYMJpiKYkmW3tTg3ZQ9Jq+f8XN+A5eeUKHWvJWJ2sgJ1Sop+wwhqFVijqWaJhwtD8MNlSBeWNNWTa5Z5kPZw5+LbVT99wqTdx29lMUH4OIG/D86ruKEauBjvH5xy6um/Sfj7ei6UUVk4AIl3MyD4MSSTOFgSwsH/QJWaQ5as7ZcmgBZkzjjU1UrQ74ci1gWBCSGHtuV1H2mhSnO3Wp/3fEV5a+4wz//6qy8JxjZsmxxy5+4w9CDNJY09T072iKG0EnOS0arEYgXqYnXcYHwjTtUNAcMelOd4xpkoqiTYICWFq0JSiPfPDQdnt+4/wuqcXY47QILbgAAAABJRU5ErkJggg==");
 }
 
 .introContent img {
@@ -328,62 +348,72 @@ footer {
     text-align: left;
 }
 
-    /* the tall wrapper — gives the scroll its room to work */
-    #stack-wrapper {
-      height: 400vh; /* 3x screen height, increase to slow the reveal down */
-      position: relative;
-    }
- 
-    /* sticks in place while the wrapper scrolls past */
-    #stack-sticky {
-      position: sticky;
-      top: 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
- 
-    /* the container that holds all three images */
-    #stack-inner {
-      position: relative;
-      width: 600px;  /* adjust to your image size */
-      height: 480px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
- 
-    /* every image stacks in the same spot */
-    .stack-img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 0.3s ease;
-    }
- 
-    /* initial rotations — the fanned-out look */
-    #img-2 { transform: rotate(5deg);  z-index: 3; }
-    #img-1 { transform: rotate(-4deg); z-index: 2; }
-    #img-0 { transform: rotate(0deg);  z-index: 1; }
+/* the tall wrapper — gives the scroll its room to work */
+#stack-wrapper {
+    height: 400vh;
+    /* 3x screen height, increase to slow the reveal down */
+    position: relative;
+}
 
+/* sticks in place while the wrapper scrolls past */
+#stack-sticky {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    .accordion {
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: center;
-  outline: none;
-  transition: 0.4s;
+/* the container that holds all three images */
+#stack-inner {
+    position: relative;
+    width: 600px;
+    /* adjust to your image size */
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* every image stacks in the same spot */
+.stack-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* initial rotations — the fanned-out look */
+#img-2 {
+    transform: rotate(5deg);
+    z-index: 3;
+}
+#img-1 {
+    transform: rotate(-4deg);
+    z-index: 2;
+}
+#img-0 {
+    transform: rotate(0deg);
+    z-index: 1;
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
 }
 
 .panel {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  text-align: center;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    text-align: center;
 }
 
 .locations {
@@ -392,42 +422,44 @@ footer {
     width: 100%;
 }
 
-.locationsLeft, .locationsRight {
+.locationsLeft,
+.locationsRight {
     width: 50%;
-    padding: 40px 0px 40px 40px;
+    padding: 40px 0 40px 40px;
 }
 
 .locationsRight {
     width: 50%;
-    padding: 40px 40px 40px 40px;
+    padding: 40px;
 }
 
-.locationsLeft button, .locationsRight button {
+.locationsLeft button,
+.locationsRight button {
     background-color: #cccccc00;
 }
 
-.locationsLeft button img, .locationsRight button img {
+.locationsLeft button img,
+.locationsRight button img {
     width: 120px;
     height: auto;
 }
-
 
 /* Form */
 
 form {
     width: 75%;
-    margin: 25px auto 0 auto;
+    margin: 25px auto 0;
     color: #fff;
     z-index: 1;
 }
 
 form h3 {
     font-size: 2em;
-    margin: 0 0 25px 0;
+    margin: 0 0 25px;
 }
 
 form div {
-    margin: 0 0 15px 0;
+    margin: 0 0 15px;
     position: relative;
 }
 
@@ -444,7 +476,7 @@ form textarea {
     border: 1px solid rgba(0, 0, 0, 0);
     width: 80%;
     color: #000000;
-    font-size: .9em;
+    font-size: 0.9em;
     background-color: rgba(255, 255, 255, .4);
 }
 
@@ -452,7 +484,7 @@ form input[type="submit"] {
     width: auto;
     padding: 5px 20px;
     cursor: pointer;
-    font-size: .8em;
+    font-size: 0.8em;
     color: #fff;
     border: 1px solid #fff;
     background-color: #598234;
@@ -494,7 +526,7 @@ input:required + label::after {
     content: 'required';
     font-style: italic;
     padding-left: 10px;
-    font: .8em;
+    font: 0.8em;
 }
 
 input:required + label::before {
@@ -505,7 +537,7 @@ input:required + label::before {
     display: block;
     width: 20px;
     height: 40px;
-    background: url('images/favicon.png') no-repeat 0 0;
+    background: url("images/favicon.png") no-repeat 0 0;
     background-size: contain;
 }
 
@@ -513,6 +545,7 @@ input:required + label::before {
 
 .imgcontainer {
     position: relative;
+    width: 50%;
 }
 
 /* Next and previous buttons */
@@ -523,24 +556,19 @@ input:required + label::before {
     top: 50%;
     width: auto;
     padding: 20px;
-    margin-top: -90px;
-    color: white;
-    font-weight: bold;
-    font-size: 1.2em;
-    border-radius: 30px 5px 5px 30px;
+    margin-top: 0;
     -webkit-user-select: none;
+}
+
+.next img,
+.prev img {
+    width: 40px;
+    height: auto;
 }
 
 /* position the next button to the right  */
 .next {
     right: 0;
-    border-radius: 5px 30px 30px 5px;
-}
-
-/* next and prev hover  */
-.next:hover,
-.prev:hover {
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Number text 1 / 5 */
@@ -552,46 +580,25 @@ input:required + label::before {
     top: 0;
 }
 
-/* Image captions  */
-.caption-container {
-    background-color: #505160;
-    margin-top: -4px;
-    padding: 10px 16px;
-    color: white;
-}
-
-#caption {
-    text-align: center;
-}
-
-.slideshowrow:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Five columns  */
-.slideshowcolumn {
-    float: left;
-    width: 20%;
-}
-
-.myThumbnail {
-    opacity: 0.6;
-    width: 100%;
-    cursor: pointer;
-}
-
-.active,
-.myThumbnail:hover {
-    opacity: 1;
-}
-
-.slideimage {
-    width: 100%;
-}
-
 /* hide large images by default use JS  */
 .mySlides {
     display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
+
+.mySlides h2 {
+    padding: 20px;
+}
+.imageGallery {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }

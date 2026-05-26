@@ -5,15 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>News | What Lies Beaneath</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="Assets/Images/logoWithoutText.png" type="image/x-icon">
+        <link
+            rel="shortcut icon"
+            href="Assets/Images/logoWithoutText.png"
+            type="image/x-icon">
     </head>
 
     <body class="no-scroll">
-        <audio src="Assets/backgroundMusic.mp3" id="bg-music" loop></audio>
+        <audio src="Assets/backgroundMusic.mp3" id="bg-music" loop="loop"></audio>
         <div id="audio-prompt" style="display: none;">
-  <p>Click to resume music</p>
-  <button id="resume-btn"><p>Resume</p></button>
-</div>
+            <p>Click to resume music</p>
+            <button id="resume-btn">
+                <p>Resume</p>
+            </button>
+        </div>
         <div class="loading" id="loading">
             <h1>
                 What<br>Lies<br>Beaneath
@@ -64,17 +69,17 @@
             <p>Subscribe to be the first to know when What Lies Beaneath is in your town</p>
 
             <div>
-                <input id="firstname" name="firstname" type="text" required>
+                <input id="firstname" name="firstname" type="text" required="required">
                 <label for="firstname">First Name</label>
             </div>
 
             <div>
-                <input id="lastname" name="lastname" type="text" required>
+                <input id="lastname" name="lastname" type="text" required="required">
                 <label for="lastname">Last Name</label>
             </div>
 
             <div>
-                <input id="email" name="email" type="email" required>
+                <input id="email" name="email" type="email" required="required">
                 <label for="email">Email</label>
             </div>
 
@@ -89,7 +94,7 @@
             </div>
 
             <div>
-                <input id="agree" name="agree" type="checkbox" required>
+                <input id="agree" name="agree" type="checkbox" required="required">
                 <label for="agree">I agree to the terms of service</label>
             </div>
 
@@ -119,9 +124,9 @@
             <div class="footerSponsored">
                 <div>
                     <h3>
-                    Proudly sponsored by
-                </h3>
-                <p>Quicksticks Sporting Goods<br>Umpteen Treasures<br>Spinfluence</p>
+                        Proudly sponsored by
+                    </h3>
+                    <p>Quicksticks Sporting Goods<br>Umpteen Treasures<br>Spinfluence</p>
                 </div>
                 <div>
                     <p>Made for Digital Technology (AS91901, AS91903, AS91907)</p>
