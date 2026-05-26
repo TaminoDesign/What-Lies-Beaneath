@@ -74,6 +74,7 @@ button {
     border: solid 0px;
     cursor: pointer;
     text-decoration: none;
+    color: #FFFCEA;
 }
 
 a button {
@@ -121,6 +122,27 @@ margin: 10px;
 margin: 10px;
 }
 
+#audio-prompt {
+    position: absolute;
+    z-index: 5;
+    background-color: #FFFCEA;
+    padding: 40px;
+    top: 45%;
+      left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 300px; /* Need a specific value to work */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#audio-prompt p {
+    color: #2D2037;
+}
 
 header {
     width: 100%;
@@ -130,6 +152,30 @@ header {
     justify-content: center;
     align-items: center;
     background: url('Assets/Images/loadingScreenBAckground.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.headingNews {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('Assets/Images/backgroundBlue.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.headingArtists {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('Assets/Images/backgroundYellow.png');
     background-position: center;
     background-size: cover;
 }
@@ -214,7 +260,6 @@ footer {
     flex-direction: row;
     width: 100%;
     height: auto;
-    max-width: 1280px;
 }
 
 .footerLogo {
@@ -364,4 +409,189 @@ footer {
 .locationsLeft button img, .locationsRight button img {
     width: 120px;
     height: auto;
+}
+
+
+/* Form */
+
+form {
+    width: 75%;
+    margin: 25px auto 0 auto;
+    color: #fff;
+    z-index: 1;
+}
+
+form h3 {
+    font-size: 2em;
+    margin: 0 0 25px 0;
+}
+
+form div {
+    margin: 0 0 15px 0;
+    position: relative;
+}
+
+form > div:last-of-type {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+form input,
+form textarea {
+    padding: 5px 12px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 80%;
+    color: #000000;
+    font-size: .9em;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+form input[type="submit"] {
+    width: auto;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: .8em;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #598234;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+    position: relative;
+    top: -2px;
+}
+
+form input[type="checkbox"] + label {
+    display: inline;
+    padding-left: 10px;
+    font-style: normal;
+}
+
+/* Rule for input fields that have a required attribute */
+
+input:required {
+    border: 1px solid #598234;
+}
+
+/* Target the lable element that appears after an input field that has a required attibute */
+
+input:required + label {
+    color: #598234;
+}
+
+/* Adding a pseudo-element (*) after each of the required labels */
+
+input:required + label::after {
+    content: 'required';
+    font-style: italic;
+    padding-left: 10px;
+    font: .8em;
+}
+
+input:required + label::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -25px;
+    display: block;
+    width: 20px;
+    height: 40px;
+    background: url('images/favicon.png') no-repeat 0 0;
+    background-size: contain;
+}
+
+/* Image slideshow */
+
+.imgcontainer {
+    position: relative;
+}
+
+/* Next and previous buttons */
+.next,
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    margin-top: -90px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 30px 5px 5px 30px;
+    -webkit-user-select: none;
+}
+
+/* position the next button to the right  */
+.next {
+    right: 0;
+    border-radius: 5px 30px 30px 5px;
+}
+
+/* next and prev hover  */
+.next:hover,
+.prev:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text 1 / 5 */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 1em;
+    padding: 8px;
+    position: absolute;
+    top: 0;
+}
+
+/* Image captions  */
+.caption-container {
+    background-color: #505160;
+    margin-top: -4px;
+    padding: 10px 16px;
+    color: white;
+}
+
+#caption {
+    text-align: center;
+}
+
+.slideshowrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Five columns  */
+.slideshowcolumn {
+    float: left;
+    width: 20%;
+}
+
+.myThumbnail {
+    opacity: 0.6;
+    width: 100%;
+    cursor: pointer;
+}
+
+.active,
+.myThumbnail:hover {
+    opacity: 1;
+}
+
+.slideimage {
+    width: 100%;
+}
+
+/* hide large images by default use JS  */
+.mySlides {
+    display: none;
 }

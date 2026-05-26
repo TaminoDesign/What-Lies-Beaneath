@@ -1,11 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>News | What Lies Beaneath</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="Assets/Images/logoWithoutText.png" type="image/x-icon">
+    </head>
+
+    <body class="no-scroll">
+        <audio src="Assets/backgroundMusic.mp3" id="bg-music" loop></audio>
+        <div id="audio-prompt" style="display: none;">
+  <p>Click to resume music</p>
+  <button id="resume-btn"><p>Resume</p></button>
+</div>
+        <div class="loading" id="loading">
+            <h1>
+                What<br>Lies<br>Beaneath
+            </h1>
+            <div class="loadingButtons">
+                <button id="mute">
+                    <p>Mute Sound</p><img src="Assets/Images/MusicNote.png" alt=""></button>
+                <button id="continue">
+                    <p>Continue</p><img src="Assets/Images/Arrow.png" alt=""></button>
+            </div>
+        </div>
+
+        <header class="headingNews">
+            <div class="nav">
+                <div class="logo">
+                    <a href="index.html"><img src="Assets/Images/logo.png" alt=""></a>
+                </div>
+                <div class="navPages">
+                    <a href="index.html">
+                        <p>Home</p>
+                    </a>
+                    <a href="exhibition.html">
+                        <p>Exhibition</p>
+                    </a>
+                    <a href="artists.html">
+                        <p>Artists</p>
+                    </a>
+                    <a href="news.html">
+                        <p>News</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="heading">
+                <div class="headingFirstRow">
+                    <h1>Exhibition News</h1>
+                </div>
+            </div>
+
+            <div class="heroExtraInfo">
+                <p>Warkworth</p>
+                <p>Until 2ed of June</p>
+            </div>
+        </header>
+
+        <form>
+            <h3>Contact Us</h3>
+            <p>Subscribe to be the first to know when What Lies Beaneath is in your town</p>
+
+            <div>
+                <input id="firstname" name="firstname" type="text" required>
+                <label for="firstname">First Name</label>
+            </div>
+
+            <div>
+                <input id="lastname" name="lastname" type="text" required>
+                <label for="lastname">Last Name</label>
+            </div>
+
+            <div>
+                <input id="email" name="email" type="email" required>
+                <label for="email">Email</label>
+            </div>
+
+            <div>
+                <input id="phone" name="phone" type="text">
+                <label for="phone">Phone</label>
+            </div>
+
+            <div>
+                <input id="dob" name="dob" type="text">
+                <label for="firstname">Date of Birth (DD/MM/YYYY)</label>
+            </div>
+
+            <div>
+                <input id="agree" name="agree" type="checkbox" required>
+                <label for="agree">I agree to the terms of service</label>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit" onclick="myFunction()">
+            </div>
+        </form>
+
+        <footer>
+            <div class="footerNews">
+                <div>
+                    <h3>
+                        Subscribe<br>for News
+                    </h3>
+                    <a href="news.html">
+                        <button id="learnMore">
+                            <p>Subscribe</p><img src="Assets/Images/Arrow.png" alt=""></button>
+                    </a>
+                </div>
+                <div>
+                    <p>© 2026 What Lies Beaneath/Janosch Hussain</p>
+                </div>
+            </div>
+            <div class="footerLogo">
+                <img src="Assets/Images/logoWithoutText.png" alt="">
+            </div>
+            <div class="footerSponsored">
+                <div>
+                    <h3>
+                    Proudly sponsored by
+                </h3>
+                <p>Quicksticks Sporting Goods<br>Umpteen Treasures<br>Spinfluence</p>
+                </div>
+                <div>
+                    <p>Made for Digital Technology (AS91901, AS91903, AS91907)</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js.js"></script>
+    </body>
 </html>

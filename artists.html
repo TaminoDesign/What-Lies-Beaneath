@@ -1,11 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Artists | What Lies Beaneath</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="Assets/Images/logoWithoutText.png" type="image/x-icon">
+    </head>
+
+    <body class="no-scroll">
+        <audio src="Assets/backgroundMusic.mp3" id="bg-music" loop></audio>
+        <div id="audio-prompt" style="display: none;">
+  <p>Click to resume music</p>
+  <button id="resume-btn"><p>Resume</p></button>
+</div>
+        <div class="loading" id="loading">
+            <h1>
+                What<br>Lies<br>Beaneath
+            </h1>
+            <div class="loadingButtons">
+                <button id="mute">
+                    <p>Mute Sound</p><img src="Assets/Images/MusicNote.png" alt=""></button>
+                <button id="continue">
+                    <p>Continue</p><img src="Assets/Images/Arrow.png" alt=""></button>
+            </div>
+        </div>
+
+        <header class="headingArtists">
+            <div class="nav">
+                <div class="logo">
+                    <a href="index.html"><img src="Assets/Images/logo.png" alt=""></a>
+                </div>
+                <div class="navPages">
+                    <a href="index.html">
+                        <p>Home</p>
+                    </a>
+                    <a href="exhibition.html">
+                        <p>Exhibition</p>
+                    </a>
+                    <a href="artists.html">
+                        <p>Artists</p>
+                    </a>
+                    <a href="news.html">
+                        <p>News</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="heading">
+                <div class="headingFirstRow">
+                    <h1>The</h1>
+                </div>
+                <div class="headingSecondRow">
+                    <h1>people</h1>
+                </div>
+                <div class="headingThirdRow">
+                    <h1>Beaneath</h1>
+                </div>
+            </div>
+
+            <div class="heroExtraInfo">
+                <p>Warkworth</p>
+                <p>Until 2ed of June</p>
+            </div>
+        </header>
+
+       <!-- Container to hold image gallery -->
+
+        <div class="imgcontainer">
+            <!-- Ful-width images with numbered text -->
+            <div class="mySlides">
+                <div class="numbertext">
+                    1 / 5
+                </div>
+                <img
+                    class="slideimage"
+                    src="images/Church_Good_Shepherd.jpg"
+                    alt="Church of the Good Shepherd">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">
+                    2 / 5
+                </div>
+                <img class="slideimage" src="images/Milford_Sound.jpg" alt="Milford Sound">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">
+                    3 / 5
+                </div>
+                <img class="slideimage" src="images/Hobbiton.jpg" alt="Hobbiton">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">
+                    4 / 5
+                </div>
+                <img class="slideimage" src="images/Sheep.jpg" alt="Grasing Sheep">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">
+                    5 / 5
+                </div>
+                <img
+                    class="slideimage"
+                    src="images/Tongariro_Blue_Lake.jpg"
+                    alt="Blue Lakes Tengariro">
+            </div>
+
+            <!-- Next and previous buttons with left and right arrows -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+            <!-- Image text -->
+             <div class="caption-container">
+                <p id="caption"></p>
+             </div>
+
+             <!-- Thumbnail images  -->
+              <div class="slideshowrow">
+                <div class="slideshowcolumn">
+                    <img class="myThumbnail" src="images/Church_Good_Shepherd_Thumbnail.jpg" onclick="currentSlide(1)" alt="Church of the Good Shepherd, Lake Tekapo">
+                </div>
+
+                <div class="slideshowcolumn">
+                    <img class="myThumbnail" src="images/Milford_Sound_Thumbnail.jpg" onclick="currentSlide(2)" alt="Milford Sound">
+                </div>
+
+                <div class="slideshowcolumn">
+                    <img class="myThumbnail" src="images/Hobbiton_Thumbnail.jpg" onclick="currentSlide(3)" alt="Hobbiton">
+                </div>
+
+                <div class="slideshowcolumn">
+                    <img class="myThumbnail" src="images/Sheep_Thumbnail.jpg" onclick="currentSlide(4)" alt="Grasing Sheep">
+                </div>
+
+                <div class="slideshowcolumn">
+                    <img class="myThumbnail" src="images/Tongariro_Blue_Lake_Thumbnail.jpg" onclick="currentSlide(5)" alt="Blue Lakes Tengariro">
+                </div>
+              </div>
+        </div>
+
+
+        <footer>
+            <div class="footerNews">
+                <div>
+                    <h3>
+                        Subscribe<br>for News
+                    </h3>
+                    <a href="news.html">
+                        <button id="learnMore">
+                            <p>Subscribe</p><img src="Assets/Images/Arrow.png" alt=""></button>
+                    </a>
+                </div>
+                <div>
+                    <p>© 2026 What Lies Beaneath/Janosch Hussain</p>
+                </div>
+            </div>
+            <div class="footerLogo">
+                <img src="Assets/Images/logoWithoutText.png" alt="">
+            </div>
+            <div class="footerSponsored">
+                <div>
+                    <h3>
+                    Proudly sponsored by
+                </h3>
+                <p>Quicksticks Sporting Goods<br>Umpteen Treasures<br>Spinfluence</p>
+                </div>
+                <div>
+                    <p>Made for Digital Technology (AS91901, AS91903, AS91907)</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js.js"></script>
+    </body>
 </html>
